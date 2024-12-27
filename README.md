@@ -1,2 +1,10 @@
 # Airline-Route-Analysis-Project
 This project analyzes airline routes to explore hub connectivity and identify insights for airline AL35's expansion. Using graph-based analysis, it examines critical airports, connections, and optimal hubs. The study processes a dataset of 6,700 routes to derive actionable insights for improved decision-making.
+
+The objectives include filtering the dataset to include only AL35 routes, constructing an undirected graph to represent the airline’s network, and computing graph metrics such as node degree, density, diameter, and centrality to identify key hubs. The project also aims to determine the next potential hub for the airline based on these data-driven metrics.
+
+Initially, the dataset is reduced to 393 records containing only AL35 routes. This reduced dataset is represented as an undirected graph, where airports serve as nodes and flight connections as edges. Duplication of edges is avoided, treating bi-directional connections as a single edge. The graph is analyzed for metrics like the number of nodes and edges, density, and connected components. The graph contains 86 nodes (airports) and 196 edges (routes). The density is low, indicating underutilization of airports or missing direct connections, but the graph remains a single connected component, ensuring all airports are reachable.
+
+The analysis identifies the top 5 airports based on connections: Chengdu Shuangliu International Airport (CTU), Chongqing Jiangbei International Airport (CKG), Kunming Changshui International Airport (KMG), Xi'an Xianyang International Airport (XIY), and Harbin Taiping International Airport (HRB). Among these, CTU is the busiest airport, with 54 connections, making it the central hub for AL35.
+
+Using metrics like degree centrality, betweenness centrality, and closeness centrality, Xi'an Xianyang International Airport (XIY) is identified as the most suitable candidate for the next hub. Key factors include high centrality scores, accessibility to major cities, and potential for future expansion. These findings provide actionable insights for optimizing AL35’s operations and network growth.
