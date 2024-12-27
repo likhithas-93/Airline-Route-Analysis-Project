@@ -9,7 +9,8 @@ Representing the airline's routes as an undirected graph, with airports as nodes
 Computing graph metrics such as node degree, density, diameter, and centrality to identify key hubs.
 Determining the next potential hub for the airline based on data-driven metrics.
 
-Key Steps
+Key Steps:
+
 Dataset Reduction:
 From the raw dataset of 6,700 routes, only the routes for AL35 are extracted, resulting in 393 records.
 A clean, reduced dataset is created for further analysis.
