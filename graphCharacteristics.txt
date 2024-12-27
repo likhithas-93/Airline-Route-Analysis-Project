@@ -1,0 +1,2 @@
+number_of_nodes,number_of_edges,density,number_of_connected_comp,connected_comps,diameter,min_degree,max_degree,avg_degree,std_dev_degree
+86,196,0.05362517099863201,1,[86],5,1,54,4.558139534883721,7.223498665365437
